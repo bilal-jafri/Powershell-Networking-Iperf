@@ -1,20 +1,17 @@
 # README #
-
 Iperf Service to test VPN servers benchmark speed and record it to DialerXN.
 
 ### Technologies ###
-
-*PowerShell
-*Iperf3
-*Nssm
+PowerShell
+Iperf3
+Nssm
 
 ## Installation ###
 
-*clone zip file into `C:/
-*unzip the folder in C:/
+clone zip file into 'C:/'
+unzip the folder in 'C:/'
 
 **Create Service By name Iperf**
-
 NOTE: Below are Powershell Commands
 *Start-Process -FilePath C:\iperf\iperf-3.1.3-win64\nssm.exe -ArgumentList 'install Iperf "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" "-command "& { . C:\iperf\iperf-3.1.3-win64\Iperf.ps1 }"" ' -NoNewWindow -Wait
 
